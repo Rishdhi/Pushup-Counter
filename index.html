@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <title>Pushups Counter</title>
 
 </head>
+
 <body>
 
     <a class="codepen-button" style="margin-bottom: 35px;"><span>Start Your Pushups</span></a>
@@ -16,7 +18,22 @@
 
     <h2 id="count-el" style="margin-bottom: 20px;">0</h2>
 
-    <button id="increment-btn" onclick="increment()"> + 1 </button>
+
+    <div class="plus-and-minus-buttons">
+
+        <button id="increment-btn" onclick="increment()"> + 1 </button>
+
+        <button id="decrement-btn" onclick="increment()"> - 1 </button>
+
+    </div>
+
+
+
+
+
+
+
+    <button id="save-btn" onclick="save()"> Save </button>
 
     <button id="clearButton">Clear</button>
 
@@ -24,11 +41,12 @@
 
     <button id="six-btn" onclick="incrementby6()"> + 6 </button> -->
 
-    <button id="save-btn" onclick="save()"> SAVE </button>
+
 
     <p class="entries" id="save-el" style="margin-top: 90px;">Previous Entries: </p>
- 
+
 
     <script src="./index.js"></script>
 </body>
+
 </html>
