@@ -176,7 +176,7 @@ p {
 .gradient-background {
   background: linear-gradient(228deg, #a1ee4b, #f46354, #35694e, #278597, #fc27ae, #a8680c);
   background-size: 360% 360%;
-  animation: gradient-animation 24s ease infinite;
+  animation: gradient-animation 4s ease infinite;
   border-radius: 18px;
 }
 
@@ -192,4 +192,25 @@ p {
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+
+@media screen and (min-width: 580px) {
+
+  h1,
+  .codepen-button
+   {
+    width: 500px;
+    margin: auto;
+  }
+  
+}
+
+@media screen and (min-width : 650px) {
+
+  #save-btn{
+    margin-right: 50px;
+  }
+  
 }
