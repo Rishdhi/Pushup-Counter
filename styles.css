@@ -120,6 +120,15 @@ p {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.display{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 3rem
+
+}
+
 .codepen-button {
   display: block;
   cursor: pointer;
